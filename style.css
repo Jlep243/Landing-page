@@ -112,6 +112,7 @@ body{
     justify-content:center;
     height:50vh;
     padding:20px;
+    margin-bottom:200px;
 }
 
 .container-1
@@ -158,14 +159,13 @@ img.border
 
 .quote
 {
-    
+    display:flex;
     background-color:#E5E7EB;
+    font-family:'Roboto', sans-serif;
     font-size:36px;
-    font-style:italic;
     color:#1F2937;
-    width:960px;
-    margin-left:auto;
-    margin-right:auto;
+    height:50vh;
+    align-items:center;
 }
 
 .container
@@ -173,6 +173,15 @@ img.border
     display:flex;
     flex-direction:column;
     align-items:flex-end;
+    width:220vh;
+}
+
+.container p
+{
+    width:828px;
+    display:flex;
+    align-self: center;
+    font-style:italic;
 }
 
 .sign-up_box
